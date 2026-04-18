@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
+import dhanushImg from "@/assets/dhanush.jpg";
 
 const team = [
   {
     name: "Danush Kumar BE.CSE",
     role: "Founder & Lead Strategist",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop",
+    image: dhanushImg,
   },
   {
     name: "Shankar R R",

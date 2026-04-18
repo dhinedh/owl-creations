@@ -8,14 +8,14 @@ const team = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop",
   },
   {
-    name: "Alex Reed",
-    role: "Creative Director",
+    name: "Shankar R R",
+    role: "Creative Director, Collab Partner",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2574&auto=format&fit=crop",
   },
   {
-    name: "Elena Vance",
-    role: "Lead Developer",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2574&auto=format&fit=crop",
+    name: "Vignesh Antony",
+    role: "Founder & CEO Of Anto Entertainments",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2574&auto=format&fit=crop",
   },
 ];
 

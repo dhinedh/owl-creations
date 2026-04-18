@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import dhanushImg from "@/assets/dhanush.jpg";
 import shankarImg from "@/assets/shankar.jpg";
+import vigneshImg from "@/assets/vignesh.jpg";
 
 const team = [
   {
@@ -17,7 +18,7 @@ const team = [
   {
     name: "Vignesh Antony",
     role: "Founder & CEO Of Anto Entertainments",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2574&auto=format&fit=crop",
+    image: vigneshImg,
   },
 ];
 

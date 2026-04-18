@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import dhanushImg from "@/assets/dhanush.jpg";
+import shankarImg from "@/assets/shankar.jpg";
 
 const team = [
   {
@@ -11,7 +12,7 @@ const team = [
   {
     name: "Shankar R R",
     role: "Creative Director, Collab Partner",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2574&auto=format&fit=crop",
+    image: shankarImg,
   },
   {
     name: "Vignesh Antony",

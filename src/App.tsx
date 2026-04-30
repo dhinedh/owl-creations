@@ -11,6 +11,8 @@ import About from "./pages/About.tsx";
 import WhyUs from "./pages/WhyUs.tsx";
 import Contact from "./pages/Contact.tsx";
 import Projects from "./pages/Projects.tsx";
+import DubaiProjects from "./pages/DubaiProjects.tsx";
+import SchoolEvents from "./pages/SchoolEvents.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import SplashLoader from "./components/SplashLoader";
 import CustomCursor from "./components/CustomCursor";
@@ -49,6 +51,8 @@ const App = () => {
                     <Route path="/" element={<Index />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/dubai-projects" element={<DubaiProjects />} />
+                    <Route path="/school-events" element={<SchoolEvents />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/why-us" element={<WhyUs />} />
                     <Route path="/contact" element={<Contact />} />

@@ -13,7 +13,7 @@ const StorySection = () => {
         >
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop"
+              src="/dubai-concert/DUBAI%20CONCERT/6.png"
               alt="Our Story"
               className="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
             />

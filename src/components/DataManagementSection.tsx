@@ -1,15 +1,17 @@
 import { motion } from "framer-motion";
 import { Folder, FileText, Image as ImageIcon, Video, Music } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface FolderItemProps {
   name: string;
   count: number;
   type: string;
   color: string;
+  link?: string;
 }
 
-const FolderCard = ({ name, count, type, color }: FolderItemProps) => {
-  return (
+const FolderCard = ({ name, count, type, color, link }: FolderItemProps) => {
+  const cardContent = (
     <motion.div
       whileHover={{ y: -5, scale: 1.02 }}
       className="group relative"
@@ -50,12 +52,17 @@ const FolderCard = ({ name, count, type, color }: FolderItemProps) => {
       </div>
     </motion.div>
   );
+
+  if (link) {
+    return <Link to={link} className="block">{cardContent}</Link>;
+  }
+  return cardContent;
 };
 
 const DataManagementSection = () => {
   const folders = [
-    { name: "Dubai Projects", count: 24, type: "assets", color: "primary" },
-    { name: "School Events", count: 156, type: "images", color: "primary" },
+    { name: "Dubai Concert", count: 10, type: "assets", color: "primary", link: "/dubai-projects" },
+    { name: "CK Vidyalaya School Event", count: 10, type: "images", color: "primary", link: "/school-events" },
     { name: "Corporate Identity", count: 42, type: "files", color: "primary" },
     { name: "Brand Guidelines", count: 8, type: "pdfs", color: "primary" },
     { name: "Media Production", count: 12, type: "videos", color: "primary" },

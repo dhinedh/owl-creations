@@ -106,7 +106,7 @@ const ContactSection = () => {
         className="max-w-6xl mx-auto mt-12"
       >
         <div className="w-full h-[400px] rounded-[2.5rem] dark:bg-card bg-card border border-primary/10 dark:border-border relative overflow-hidden group shadow-lg dark:shadow-none">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=2666&auto=format&fit=crop')] bg-cover bg-center opacity-40 grayscale group-hover:grayscale-0 transition-all duration-1000" />
+          <div className="absolute inset-0 bg-[url('/school-events/CK%20VIDYALAYA%20SCHOOL%20EVENT/16.png')] bg-cover bg-center opacity-40 grayscale group-hover:grayscale-0 transition-all duration-1000" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="p-8 rounded-3xl bg-background/80 backdrop-blur-md border border-primary/20 text-center max-w-xs transition-transform group-hover:scale-105 duration-500">

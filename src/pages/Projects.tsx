@@ -10,42 +10,42 @@ const allProjects = [
     title: "Global Legacy Identity",
     category: "Branding Ecosystem",
     tag: "Market Dominance",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop",
+    image: "/dubai-concert/DUBAI%20CONCERT/1.png",
     size: "large"
   },
   {
     title: "Corporate Intelligence Hub",
     category: "Platform Architecture",
     tag: "Strategic Precision",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+    image: "/dubai-concert/DUBAI%20CONCERT/2.png",
     size: "small"
   },
   {
     title: "The Digital Vanguard",
     category: "Performance Narrative",
     tag: "High Conversion",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2574&auto=format&fit=crop",
+    image: "/dubai-concert/DUBAI%20CONCERT/3.png",
     size: "small"
   },
   {
     title: "Cinematic Visionary",
     category: "Executive Storytelling",
     tag: "Legacy Media",
-    image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2659&auto=format&fit=crop",
+    image: "/school-events/CK%20VIDYALAYA%20SCHOOL%20EVENT/11.png",
     size: "large"
   },
   {
     title: "Aura Luxury Branding",
     category: "Identity Design",
     tag: "Premium Positioning",
-    image: "https://images.unsplash.com/photo-1600880210819-f5b89e1d1526?q=80&w=2000&auto=format&fit=crop",
+    image: "/school-events/CK%20VIDYALAYA%20SCHOOL%20EVENT/12.png",
     size: "small"
   },
   {
     title: "NextGen Fintech Interface",
     category: "Product Design",
     tag: "User Centric",
-    image: "https://images.unsplash.com/photo-1551288049-bbbda536ad3a?q=80&w=2000&auto=format&fit=crop",
+    image: "/school-events/CK%20VIDYALAYA%20SCHOOL%20EVENT/13.png",
     size: "small"
   }
 ];

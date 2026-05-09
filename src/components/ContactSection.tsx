@@ -68,20 +68,32 @@ const ContactSection = () => {
 
           {/* Contact form */}
           <form
-            onSubmit={(e) => e.preventDefault()}
+            action="https://formsubmit.co/theowlcreations@gmail.com"
+            method="POST"
             className="space-y-4"
           >
+            {/* FormSubmit Configuration */}
+            <input type="hidden" name="_subject" value="New Contact Request from Owl Creations Website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
             <input
               type="text"
+              name="name"
+              required
               placeholder="Your Name"
               className="w-full px-4 py-3 rounded-xl bg-card border border-primary/10 dark:border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors font-body"
             />
             <input
               type="email"
+              name="email"
+              required
               placeholder="Your Email"
               className="w-full px-4 py-3 rounded-xl bg-card border border-primary/10 dark:border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors font-body"
             />
             <textarea
+              name="message"
+              required
               placeholder="Your Message"
               rows={4}
               className="w-full px-4 py-3 rounded-xl bg-card border border-primary/10 dark:border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors font-body resize-none"
